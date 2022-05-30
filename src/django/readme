@@ -1,0 +1,11 @@
+This folder contains the main code for reading the output file from the computing experiments run in the expanse supercomputer.
+
+Main code: readFileToArrays.py
+
+Output file to be read: experimentResults.txt
+
+Codes with functions required by the main code to display the Confusion matrix in a graphical form and other results in tables:
+
+       confusionMatrixPlot.py 
+       plotTable.py
+

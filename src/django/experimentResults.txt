@@ -1,0 +1,35 @@
+Dataset: PaviaU
+Model: SVM
+Training Percentage: 0.1
+Computation on: CUDA GPU device 0
+Number of Runs: 1
+Confusion matrix:
+[[    0     0     0     0     0     0     0     0     0     0]
+ [    0  5516    46    31     1     2    46     0   326     0]
+ [    0     0 16672     0    98     0    11     0     3     0]
+ [    0   399    20    94     0     0     3     1  1372     0]
+ [    0     0   430     0  2328     0     0     0     0     0]
+ [    0     3     1     0     0  1201     2     0     4     0]
+ [    0     7  3559     0     0     2   945     0    13     0]
+ [    0  1167     0     0     0     0     1     0    29     0]
+ [    0   121    66    12     0     0     5     0  3110     0]
+ [    0     1     0     0     0     0     0     0     0   851]]
+---
+Accuracy: 79.786%
+---
+F1 scores:
+	Undefined: nan
+	Asphalt: 0.837
+	Meadows: 0.887
+	Gravel: 0.093
+	Trees: 0.898
+	Painted metal sheets: 0.994
+	Bare Soil: 0.341
+	Bitumen: 0.000
+	Self-Blocking Bricks: 0.761
+	Shadows: 0.999
+---
+Kappa: 0.717
+Training time: 0.367
+Testing time: 52.773
+Total time: 53.140
